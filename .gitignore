@@ -1,0 +1,31 @@
+# Python-Bytecode & Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# Virtualenvs
+.venv/
+venv/
+.env
+
+# OS-Cruft
+.DS_Store
+
+# Gradio-Temp & Uploads
+**/gradio_tmp/**
+
+# Chroma-Vector-DB
+**/chroma_db/**
+**/chroma.sqlite3
+*.sqlite3
+
+# User database
+**/users.json
+
+# Uploaded PDFs / Demo documents
+**/Papers/**
+# Keep folder in repo, but empty:
+!**/Papers/.gitkeep
