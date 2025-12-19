@@ -3,6 +3,9 @@
 A minimal **External Retrieval Interface (ERI)** test implementation backed by **ChromaDB**,  
 with a small **FastAPI** backend and a **Gradio** helper UI.
 
+This repository is meant as a minimal ERI playground 
+to test decentralized RAG flows and to plug into tools like Open WebUI as an external knowledge server.
+
 Use this repository to:
 
 - spin up a local ERI server,
@@ -250,3 +253,29 @@ It is intentionally small and focused, so you can:
 - plug it into OpenWebUI or similar tools,
 - and experiment with RAG-style augmentation in a controlled local environment.
 
+
+---
+
+## 8. License
+
+MIT License
+
+Copyright (c) 2025 DLR Institute for Software Technology
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
